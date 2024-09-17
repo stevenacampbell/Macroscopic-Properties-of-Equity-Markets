@@ -4,6 +4,6 @@ This repository contains all of the code to reproduce the analysis in [Campbell,
 
 Included in this repository is a pre-processing folder whose code files can be used to clean and format the CRSP data. We also provide a backtesting engine for long-only portfolios in markets with dividends, delistings, and transaction costs that implements the methodology of [Ruf & Xie (2020)]. This is used in Section 6 of the paper for an empirical study of portfolio performance. We include a dedicated folder for this backtesting engine that contains the main backtesting functionality and additional code to: 
 
-i) Generate sample data in a format analogous to that of the paper,
-ii) ``Pre-process'' the sample data for backtesting, and;
+i) Generate sample data in a format analogous to that of the paper,\\
+ii) ``Pre-process'' the sample data for backtesting, and;\\
 iii) Apply the backtesting engine to analyze trading performance on the sample data.
