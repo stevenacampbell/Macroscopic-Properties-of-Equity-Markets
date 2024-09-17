@@ -1,4 +1,4 @@
-# Code supplement for ``Macroscopic Properties of Equity Markets: Stylized Facts and Portfolio Performance''
+# Code supplement for ''Macroscopic Properties of Equity Markets: Stylized Facts and Portfolio Performance''
 
 This repository contains all of the code to reproduce the analysis in [Campbell, Song & Wong (2024)]. Each section in the paper has a corresponding code folder that generates the figures and results. The market data used in the study was obtained under license from the Center for Research in Security Prices (CRSP) through Wharton Research Data Services (WRDS). Academic licenses are available at many institutions and the data can be accessed directly or through an API. Our data was obtained online directly from WRDS. For a tutorial on how to download and manipulate the data in Python see https://github.com/johruf/CRSP_on_WRDS_introduction.
 
