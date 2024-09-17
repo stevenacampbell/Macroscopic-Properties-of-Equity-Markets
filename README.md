@@ -6,6 +6,6 @@ Included in this repository is a pre-processing folder whose code files can be u
 
 i) Generate sample data in a format analogous to that of the paper,
 
-ii) ``Pre-process'' the sample data for backtesting, and;
+ii) ''Pre-process'' the sample data for backtesting, and;
 
 iii) Apply the backtesting engine to analyze trading performance on the sample data.
