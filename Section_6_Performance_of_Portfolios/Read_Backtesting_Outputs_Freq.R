@@ -64,6 +64,8 @@ colnames(term_perf)<-freqs
 
 ### Bar Plot for Frequencies (Divisors of 250)
 
+par(mar = c(5, 3, 4, 1))  # Decrease the right and left margins
+
 # Create the color palette
 color_palette <- colorRampPalette(c(rgb(0.0,0.0,1,0.8), rgb(1,0.0,0.0,0.8)), alpha = TRUE)(length(freqs))
 
@@ -141,12 +143,6 @@ for (j in 1:length(years)) {
     border = NA
   )
 }
-
-v<-ann_egr_d-ann_egr_y
-y<-bar_heights[7,]+0.004
-summary(lm(y~v))
-plot(v,y)
-abline(lm(y~v))
 
 ### Bar Plot for Frequencies (All Frequencies)
 # Create the color palette
