@@ -60,6 +60,8 @@ colnames(term_perf)<-pvals
 
 ### Bar Plot of Performance Differences (to market)
 
+par(mar = c(5, 3, 4, 1))  # Decrease the right and left margins
+
 # Create the color palette
 color_palette <- colorRampPalette(c(rgb(0.2, 0.2, 0.2, 0.2), rgb(0.9, 0.9, 0.9, 0.2)), alpha = TRUE)(length(pvals))
 
