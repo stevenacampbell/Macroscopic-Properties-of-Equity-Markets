@@ -92,7 +92,7 @@ run_portfolio<-function(V0,pi0,tcb,tcs,freq,mu,div_returns,real_ret,dl_flag,get_
   #Set up Values matrix to record data
   col_names_values<-c(rep("pi_",NS),rep("psi_",NS),"D_", rep("pi_target",NS),"V_","D_hat",rep("c_vec",NS),"c","V",rep("psi",NS),rep("pi",NS))
   size_out<-length(col_names_values)
-  Values<-matrix<-matrix(0, nrow=Nper, ncol=size_out)
+  Values<-matrix(0, nrow=Nper, ncol=size_out)
   colnames(Values)<-col_names_values
   
   #Initalize Variables
