@@ -59,7 +59,7 @@ for (i in seq(1,length(years),1)) {
 ann_egr <- read_csv("Annual_EGR.csv", col_types = cols(.default = "d"))
 ann_egr<-as.data.frame(ann_egr)[[1]]
 
-ann_ddiv <- read_csv("Annual_Change_Diversity.csv", col_types = cols(.default = "d"))
+ann_ddiv <- read_csv("Annual_Change_Entropy.csv", col_types = cols(.default = "d"))
 ann_ddiv<-as.data.frame(ann_ddiv)[[1]]
 
 summary(lm(term_perf~ann_egr+ann_ddiv))
